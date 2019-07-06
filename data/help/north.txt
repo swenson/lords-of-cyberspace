@@ -1,0 +1,3 @@
+Use this command to move one space north (up) in the net. You can also
+just type "n" as an abbreviation.
+

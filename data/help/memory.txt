@@ -1,0 +1,46 @@
+Usage: memory
+or     memory <memory number>
+
+The memory command displays a summary of the contents of your Cyberdeck's
+memory chips (and if you're jacked-in, any nearby memory). To see the 
+contents of a specific memory chip, type it's number for your deck's memory 
+or a direction (N,S,E,W) for memory that's nearby.
+
+When viewing the contents of a specific memory chip, you have the following
+options:
+
+Erase
+ Erase a specified program or document.
+
+Move
+ Move a specified program or document to a different memory unit. In
+ Vendor systems, you buy and sell programs using move. When you move
+ a program from the vendor's memory to your memory, your bank account
+ is charged the cost of the program. And when you move a program from
+ your memory into the Vendor's memory, your bank account is credited
+ with the resale value of the program.
+
+Read
+ Documents you find when breaking into systems are generally of dubious
+ worth. Reading one might give you a better idea of it's value. Still,
+ not every document that says "Secret Plans to Conquer the Universe" is
+ worth the electronic paper it's printed on. The only sure way to find out
+ if a document is worth something is by bringing it to a Criminal system
+ and seeing if the Fence offers you anything for it.
+
+Zipper
+ The Zipper utility of your deck packs and unpacks files. A packed program
+ takes up 1/2 the memory space it would normally take up (down to a minimum
+ of 1). 
+
+Unlock
+ If you have an available Unlocker program in your memory, you can run it
+ to unlock a program or document.
+
+Store (to backup chip)
+ If you are not jacked-in, and have a backup chip reader and at least one
+ backup chip, you can move files from your online memory to backup chip.
+ Your backup unit plugs in while offline, and is removed while jacked-in.
+ So, it is totally safe storage (ICE cannot harm it, since it is not
+ connected to your deck while jacked-in). To examine and/or retrieve the
+ contents of your backup chip(s), use the "chips" command.

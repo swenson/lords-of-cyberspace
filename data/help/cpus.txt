@@ -1,0 +1,3 @@
+Displays the current state of your CPUs, i.e. what programs (if any) they
+are currently running, and the status of those programs.
+

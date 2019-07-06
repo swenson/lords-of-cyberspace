@@ -1,0 +1,5 @@
+If (for whatever reason) your screen gets messed up, use the redraw command
+to fix it. Pressing [ENTER] at the main prompt also accomplishes the same
+thing.
+
+

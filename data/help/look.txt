@@ -1,0 +1,14 @@
+Usage: look <view>
+
+Use the look command to change your view of the net. When jacked-in, you
+can specify what view of the net you want to see:
+
+look g - Global View, shows where on the globe you are.
+look c - City View, shows where you are in your current city.
+look s - System View, shows where you are in your current system (if you are
+         in a system).
+
+The look command also tells you the names of any programs or players that
+are in your immediate area (just type "look" without specifying a view).
+
+

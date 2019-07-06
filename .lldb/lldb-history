@@ -1,0 +1,12 @@
+_HiStOrY_V2_
+run\^J
+start\^J
+quit\^J
+run\^J
+ls\^J
+print\^J
+sizeof(long)\^J
+print\040sizeof(long)\^J
+print\040sizeof(sort)\^J
+print\040sizeof(short)\^J
+print\040sizeof(system_struct)\^J

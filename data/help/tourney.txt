@@ -1,0 +1,63 @@
+Use the tourney command to check the status of any LoC tournaments that your
+sysop may have set up. You can also peruse through the results of any
+previous tournaments that may have been run.
+
+GAMEOP NOTES:
+
+The following special features are available from the Gameop tournament menu:
+
+Change tournament phase-
+ A tournament cycle consists of three phases: 
+ 
+ Pregame sign-up. During pregame, players can create their characters,
+ peruse the docs, and basically do everything except actually jack-in and 
+ play. Once the pregame phase expires, the tournament moves into game-play 
+ phase (new people can still sign up and play even though the sign-up phase
+ has expired though).
+
+ Game play. The main tournament phase is actual game play. The game remains
+ in this phase until the tournament end condition is met. This varies
+ depending on the kind of tournament you've selected. If you're not running
+ a tournament at all, the game stays in this phase forever.
+
+ Post-game. Once the game end condition has been met, the tournament cycles
+ into post-game phase. Like pregame, players can do anything they like except
+ actually jack-in and play. Winners are posted and prizes (if any) are
+ awarded during the first system cleanup following the initiation of the
+ post-game phase. Once the postgame phase ends, all of the player data files
+ are automatically re-initialized and a new tournament cycle is kicked off
+ (back to pre-game sign-up phase).
+
+ You can arbitrarily force a tournament into any phase you like, and in the 
+ case of pre-game and post-game phases, you can specify how many minutes you
+ want the phase to last.
+
+Change tournament setup-
+ Whenever a new tournament is kicked off, the parameters for the tournament
+ are derived from the various level 4 CNF options relating to tournaments.
+ So, you can set up a never-ending cycle of tournaments using level 4 CNF and
+ then just forget about it. 
+
+ You can also change any aspect of the current tournament, including change 
+ the type of tournament, the tournament end-conditions, as well as the 
+ tournament prizes.
+
+Tournament reset-
+ You can manually force a tournament to reset and be reinitialized with the 
+ level 4 tournament CNF settings.
+
+Game reset-
+ You can also manually force a game reset. This basically kicks off anyone
+ who is currently playing LoC, reinitializes all of the player data and
+ reinitializes all of the tournament settings (again, derived from your
+ level 4 tournament CNF settings).
+
+Note; it is not possible to manually force the game to award prizes while
+online. If you want to prematurely end a tournament and have prizes awarded,
+the best you can do is set the phase to post-game and then run cleanup.
+
+During cleanup, winners are recorded, credits (if any were specified) are
+posted and winners are notified by e-mail.
+
+
+

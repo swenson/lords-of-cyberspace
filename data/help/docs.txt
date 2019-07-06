@@ -1,0 +1,5 @@
+Displays a list of all the documents (if any) you currently have loaded in
+memory. You can also choose to erase and/or read any or all of your documents 
+using the docs command.
+
+

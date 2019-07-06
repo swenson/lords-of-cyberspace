@@ -1,0 +1,12 @@
+Usage: chips
+or     chips <backup chip number>
+
+The chips command allows you to access the contents of your backup chips (if
+any). Your backup chip unit consists of a chip reader and at least one
+backup chip. It is accessable only while not jacked-in, and as such is
+totally safe storage (ICE can't hurt it since it is not connected to your
+deck while you are jacked-in).
+
+You can erase and retrieve from your backup chips using the chips command.
+Use the "memory" command to move files from your online memory to backup
+chip.

@@ -1,0 +1,3 @@
+Displays your current rank and score, and what you need to do to reach the 
+next rank.
+
