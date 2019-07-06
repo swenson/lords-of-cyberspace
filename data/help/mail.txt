@@ -1,0 +1,4 @@
+Using the mail command you can read and write private e-mail messages
+as well as read and write public messages in the FreeNet forum.
+
+

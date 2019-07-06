@@ -1,0 +1,5 @@
+Usage: permits <x>  (to toggle)
+       permits      (to list)
+     
+For use by sysops, this command allows you to list, as well as toggle on and
+off your special permissions.

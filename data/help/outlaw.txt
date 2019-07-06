@@ -1,0 +1,12 @@
+The outlaw command declares that you are an outlaw.
+
+Some installations of Lords of Cyberspace may be configured to use the 
+"outlaw" system. In the outlaw system, players declare themselves outlaws. 
+Once an outlaw, you may attack other players. However, you may only attack 
+other players who have also declared themselves outlaws. 
+
+Warning! Once you become an outlaw, there is no turning back. You will be
+an outlaw FOREVER! Consider the consequences very carefully before taking
+this drastic step.
+
+

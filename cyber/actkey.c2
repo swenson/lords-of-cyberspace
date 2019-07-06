@@ -1,0 +1,27 @@
+/* for creating non-WG3 activation codes */
+
+#include <stdio.h>
+#include <string.h>
+
+void main(void) {
+  char    mask[11];
+  char    regnum[11];
+  char    key[11];
+  int     i;
+  strcpy(mask,   "1860164327");
+  /*                 3   7     */
+  strcpy(regnum, "561x213x45");
+
+  for (i = 0; i != strlen(mask); ++i) {
+    if (i != 3 && i != 7) {
+      key[i] = 'A' + regnum[i] - '0';
+      key[i] += mask[i] - '0';
+    } else {
+      key[i] = 'A' + regnum[i - 1] - '0';
+      key[i] += mask[i] - '0';
+    }
+  }
+
+  key[10] = 0;
+  printf("%s\n", key);
+}

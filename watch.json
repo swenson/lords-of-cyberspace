@@ -1,0 +1,19 @@
+{
+  "install": {
+    "include": [
+      "^req\\.txt$",
+      "^package\\.json$"
+    ]
+  },
+  "restart": {
+    "include": [
+      "^\\.env$",
+      "\\.py$",
+      "^start\\.sh$",
+      "\\.js$",
+      "\\.c$",
+      "\\.h$"
+    ]
+  },
+  "throttle": 500
+}

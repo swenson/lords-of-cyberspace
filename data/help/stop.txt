@@ -1,0 +1,8 @@
+Usage: stop <program name>
+or     stop <cpu number>  
+
+Terminates the specified currently running program. If you type "stop"
+without specifying a program name or cpu number, you will receive a
+choice list of programs to stop (if you're running any).
+
+

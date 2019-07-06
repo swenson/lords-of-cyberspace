@@ -1,0 +1,9 @@
+To send messages to other players, simply type what you want to say. To
+send a private message to someone, the format is "/alias text", e.g.
+"/sysop hi sysop".
+
+Also, while jacked-in, you can send messages to other Cyberspacers (who are 
+in the same city or system as you) using a "gablink" program. If there is a 
+gablink running locally, any Cyberspacers in that city or system can freely 
+communicate with each other. BBS systems commonly run Gablink and are handy 
+places to meet and chat privately with other players.

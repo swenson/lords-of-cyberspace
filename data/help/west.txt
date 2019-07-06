@@ -1,0 +1,3 @@
+Use this command to move one space west (left) in the net. You can also
+just type "w" as an abbreviation.
+

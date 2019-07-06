@@ -1,0 +1,3 @@
+Use this command to move one space east (right) in the net. You can also
+just type "e" as an abbreviation.
+

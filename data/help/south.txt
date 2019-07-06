@@ -1,0 +1,3 @@
+Use this command to move one space south (down) in the net. You can also
+just type "s" as an abbreviation.
+

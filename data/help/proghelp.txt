@@ -1,0 +1,302 @@
+*Camoflage
+ Camoflage hides a system in the net. When Camoflage is run inside of a
+ system, other players will no longer be able to see that system from
+ the city view (unless they are running Radar).
+*NetSpeed
+ NetSpeed allows you to move faster on the City/Frontier level. While
+ running NetSpeed, you can specify a number of spaces to move along with
+ your desired direction of movement, e.g. "north 5" (or "n 5" for short)
+ to move 5 spaces to the north. You can move up to 10 spaces at once using 
+ NetSpeed. NetSpeed does not allow you to move any faster while making Net 
+ level long-distance hops or while moving inside of a system.
+*BlackKey
+ BlackKey is an admittance utility that allows you to enter the end-game
+ systems.
+*RedKey
+ RedKey is an admittance utility that allows you to enter the end-game
+ systems.
+*GreyKey
+ GreyKey is an admittance utility that allows you to enter the end-game
+ systems.
+*WhiteKey
+ WhiteKey is an admittance utility that allows you to enter the end-game
+ systems.
+*Mimic
+ Mimic is a very weak form of ICE- basically a bluff. You can designate
+ Mimic to look like any program (real or made-up) and send it after a
+ player. Mimic has no offensive capabilities. It simply pursues a player
+ and stops once it catches up to them. However, the player will not know
+ that it is a Mimic and not the real thing until they either probe it,
+ or let it catch them.
+*Trace
+ Trace traces the cyberspace signal of another player and tells you where
+ (what city and system) they are in. Trace must be run in the cyberdeck
+ of the player you want to trace. To receive constant updates of the
+ whereabouts of a traced player, leave Trace running in their system and
+ use the "where" command to find out where they are. Once Traced, you can
+ then target the player with offensive ICE, regardless of where they are
+ in the Net.
+*Bulldozer
+ Knocks holes in data walls. Success depends on Bulldozer's strength versus
+ Wall's strength.
+*Mole
+ Knocks holes in data walls. Always succeeds (as long as the wall in question
+ has a strength less than 100). Can be destroyed by Snout.
+*Unlocker
+ Unlocks files. Success depends on Unlocker's strength versus strength of 
+ file lock.
+*GateCrash
+ Opens locked gates. Success depends on GateCrash's strength versus strength
+ of the gate. If Gatecrash is VERY successful, it will actually determine
+ the system's gate password and report it to you.
+*Sentry
+ Reports the presence of other players and programs. Can run in either a 
+ system or a city.
+*Guardian
+ Reports the presence of other players and programs. Pursues players and 
+ attempts to knock them out of the net. Can run in either a system or a city.
+*Radar
+ Reports the presence of invisible players and Hydras. Success depends on
+ Radar's strength versus strength of player's Cloak, or strength of cloaked
+ Hydra. Each Radar can track a single cloaked target, so to detect multiple
+ cloaked targets in your region of Cyberspace, you'd need to run multiple
+ Radars.
+*Surge
+ Seeks target player and attempts to destroy their deck's interface.
+*Lightning
+ Seeks target player and attempts to destroy their entire deck.
+*Crash
+ Attacks target CPU in a system and attempts to temporarily disable it. 
+ Success depends on Crash's strength versus the speed of the CPU. The
+ duration of the crash depends on Crash's strength. If all CPUs in a system 
+ are crashed, the system drops out of the net.
+*Punter
+ Seeks target player and attempts to crash all their cpus (thus knocking 
+ them out of the net).
+*Blob
+ Attaches to target CPU - causes all programs run by that system to run 
+ slower (the stronger the Blob, the slower the infected system will run).
+*Virus
+ Seeks out memory inside a system and erases the contents of each memory
+ unit it comes in contact with. Can be destroyed by Anti-Virus.
+*Cloak
+ Makes Hydras & players invisible to other players and attacking programs.
+ Success depends on Cloak's strength vs attacking programs's strength or
+ strength of other player's Radar (if they are running Radar). 
+ Note: Cloak interferes with your Cyberspace signal and causes you to slowly 
+ de-rez. If you leave Cloak running indefinitely, you will eventually lose 
+ signal and drop out of Cyberspace. The higher the Cloak's strength, the
+ faster you will derez.
+*Muffler
+ Makes Hydras & players invisible to attacking programs. Success depends on
+ Muffler's strength versus attacking program's strength. 
+ Note: Muffler interferes with your Cyberspace signal and causes you to 
+ slowly de-rez. If you leave Muffler running indefinitely, you will 
+ eventually lose signal and drop out of Cyberspace. The higher the Muffler's
+ strength, the faster you will derez.
+*Shield
+ Stops all direct attacks on a player or Hydra by a program. Shield will
+ always cause an attacking program to stop, but depending on the strength of 
+ the Shield and the strength of the attacking program, Shield may lose 
+ strength in its attempt to block the attack. Once Shield's strength reaches 
+ 0 or less, it is destroyed.
+*Available
+ An as yet undetermined program.
+*Armor
+ Stops all attacks on a player or Hydra by a program - attacking program
+ stops when encountering Armor. Success depends on Armor's strength vs the
+ attacking program's strength. Additionally, if armor fails to block an 
+ attack, it will prevent some of the damage done by programs such as 
+ Firebolt, Banshee, Jolt, Lobotomy, Braindrain, Phaser, Chainsaw, 
+ Skulldrill, etc.
+*Static
+ Stuns attacking programs, causing them to momentarily freeze. Success
+ depends on Static's strength versus the attacking program's strength.
+*Knight
+ Attacks programs- lowers their strength and stops them. If the target
+ program's strength becomes 0 or less, it is totally destroyed. Success
+ depends on Knight's strength versus target program's strength. Knights
+ attacking ICE can suffer damage (-1 to strength) if they severely fail
+ their attack roll. A Knight whose strength reaches 0 is destroyed.
+*Addle
+ Attacks programs- causes the targetted program to stop running and the CPU
+ that was running the targetted program to crash. Success depends on Addle's 
+ strength versus target program's strength. Addles attacking ICE can suffer 
+ damage (-1 to strength) if they severely fail their attack roll. An Addle 
+ whose strength reaches 0 is destroyed.
+*Hercules
+ Attacks and destroys Hydras. Success depends on Hercules' strength versus 
+ target Hydra's strength. Hercules can suffer damage (-1 to strength) if it 
+ severely fails it's attack roll. A Hercules whose strength reaches 0 is 
+ destroyed.
+*Infiltrate
+ Will seek out and attack a player in an attempt to destroy a randomly 
+ selected program in their deck's memory.
+*Snout
+ Attacks and destroys Moles. Success is automatic.
+*Patriot
+ Attacks and destroys Torpedos. Success is automatic.
+*Icebolt
+ Seeks out target player and freezes them in place - player can't move or 
+ jack out.
+*Jolt
+ Seeks out target player and electrocutes their central nervous system.
+ Removes 1-6 health points once it tracks down target player.
+*Firebolt
+ Seeks out target player and electrocutes their central nervous system.
+ Removes 1-10 health points once it tracks down target player.
+*Banshee
+ Seeks out target player and electrocutes their central nervous system. 
+ Removes 2-20 health points once it tracks down target player.
+*Braindrain
+ Seeks out target player and electrocutes their brain. Removes score 
+ points equal to Braindrain's strength every attack cycle.
+*Lobotomy
+ Seeks out target player and electrocutes their brain. Removes score 
+ points equal to Lobotomy's strength every attack cycle.
+*Handcuff
+ Pursues target player and prevents them from jacking out of the net.
+*Torpedo
+ Attacks target CPU or Memory Unit in a system and attempts to destroy it. 
+ Success depends on Torpedo's strength versus the speed of the system.
+ As a side-affect, all programs run by the targetted system stop running
+ when torpedo is successful. If all CPUs in a system are destroyed or 
+ crashed, the system drops out of the net. Torpedo can be destroyed by 
+ Patriot.
+*Antivirus
+ Attacks and destroys any virus it detects. Success is automatic.
+*Locker
+ Puts a lock on a file. Once locked, file cannot be copied, moved, erased,
+ packed, etc. Strength of file lock is equal to Locker's strength. Use
+ Unlocker to unlock files.
+*Devil 
+ A Hydra that can be loaded with 2 subprograms. Hydras seek and attack 
+ players (using the subprograms they are configured with).
+*Fiend
+ A Hydra that can be loaded with 3 subprograms. Hydras seek and attack
+ players (using the subprograms they are configured with).
+*Satan
+ A Hydra that can be loaded with 4 subprograms. Hydras seek and attack
+ players (using the subprograms they are configured with).
+*Cashier
+ Cashier turns a system into a Vendor system. To enter through the gate
+ of a vendor system, you must provide Cashier with a valid bank access
+ code. When you move programs into a Vendor's memory, Cashier transfers
+ the cash value of the program to your bank account. When you move
+ programs from the Vendor's memory into your memory, Cashier charges
+ the value of the program to your bank account. If Cashier detects illegal
+ activity, it will pursue the offending player and attempt to erase their
+ memory contents and boot them out of the net.
+*Phaser
+ Phaser de-rezzes programs and other players. To use phaser, you "run into"
+ the target (attempt to move on top of them). De-rezzed programs stop
+ running and de-rezzed players drop out of the net. The amount of rez
+ damage done by phaser depends on Phaser's Strength. Hydras can be configured
+ with Phaser.
+*Chainsaw
+ Chainsaw sends powerful electric shocks through the body of a player,
+ causing the player to lose body points. To use Chainsaw, you "run into" the 
+ target player (attempt to move on top of them). The amount of body damage
+ done by Chainsaw depends on Chainsaw's strength. Hydras can be configured
+ with Chainsaw.
+*Skulldrill
+ Skulldrill sends powerful electric shocks through the brain of a player,
+ causing the player to lose score points. To use Skulldrill, you "run 
+ into" the target player (attempt to move on top of them). The amount of 
+ score points remove by Skulldrill depends on Skulldrill's strength. Hydras 
+ can be configured with Skulldrill.
+*Tentacle
+ Tentacle grabs on to a player and prevents them from moving or jacking out
+ of the net. To use Tentacle, you "run into" the target player (attempt to 
+ move on top of them). Hydras can be configured with Tentacle.
+*Cattleprod
+ Cattleprod crashes a player's deck and boots them out of the net. To use 
+ Cattleprod, you "run into" the target player (attempt to move on top of 
+ them). Hydras can be configured with Cattleprod.
+*Gluegun
+ Gluegun causes programs to freeze up and stop operating. Can be used
+ against programs, players or Hydras. If used against a program or
+ Hydra, the program or Hydra temporarily freezes. If used against a player, 
+ any programs the player is "wearing" (defensive programs like Armor and
+ Cloak, or offensive programs like Phaser and Cattleprod) temporarily
+ stop operating. To use Gluegun, you "run into" the target (attempt to move
+ on top of it). Hydras can be configured with Gluegun.
+*Cobra
+ Cobra damages (and ultimately destroys) programs. Can be used against 
+ programs, players or Hydras. If used against a program or Hydra, the program 
+ or Hydra is damaged and stops running. If used against a player, any 
+ programs the player is "wearing" (defensive programs like Armor and Cloak, 
+ or offensive programs like Phaser and Cattleprod) are damaged and stop 
+ running. If the strength of the damaged program becomes 0 or less, the 
+ program is destroyed. To use Cobra, you "run into" the target (attempt to 
+ move on top of it). Hydras can be configured with Cobra.
+*Probe
+ Probes something in the net - tells you a little something about what it
+ is and how strong it is. How close you need to be to the target to probe
+ it depends on the strength of the probe. Probe will also tell you the
+ origin city & system of a program or player.
+*Barricade
+ Basically a do-nothing program. It sits in the net and takes up space.
+ Placing Barricade on top of a Long-Distance Phone Link prevents anyone
+ from using that phone link.
+*Soldier 
+ Reports the presence of other players. Pursues them and attempts to both
+ cause them physical damage as well as knock them out of the net. Can run in 
+ either a system or a city.
+*Gablink
+ Gablink sits in a city or system and turns it into a "chat" room. Any
+ players in the local vicinity of the gablink can freely converse with one
+ another.
+*Mason
+ Mason sits in a system and checks for holes in the walls. If it detects
+ any breaks in the wall, it will move to the hole and repair it.
+*Fence
+ Fence is a special Agent program used by Criminal systems. It moves to
+ a gate and waits for players to come visit it. When you move into the square 
+ next to a Fence, it will analyze your memory and offer you cash for any 
+ valuable stolen documents you have in your possession. If you break into a 
+ Criminal system, the Fence will pursue you and attempt to destroy your 
+ deck's memory. You can also be assigned a criminal mission by a Fence. 
+ Type "? mission" for further information. Fence is a dangerous enemy, so
+ beware attacking a Criminal system.
+*Imp
+ Imp is an unpredictable, occasionally hostile Hydra of unknown origin.
+*Robot
+ Robot is an unpredictable, occasionally hostile Hydra of unknown origin.
+*Rogue
+ Rogue is an unpredictable, occasionally hostile Hydra of unknown origin.
+*NetWorm
+ NetWorm is an unpredictable, occasionally hostile Hydra of unknown origin.
+*Drone
+ Drone is an unpredictable, occasionally hostile Hydra of unknown origin.
+*CyberDroid
+ CyberDroid is an unpredictable, occasionally hostile Hydra of unknown 
+ origin.
+*Tron
+ Tron is an unpredictable, occasionally hostile Hydra of unknown origin.
+*Wraith
+ Wraith is an unpredictable, occasionally hostile Hydra of unknown origin.
+*Ghost
+ Ghost is an unpredictable, occasionally hostile Hydra of unknown origin.
+*RoadWarrior
+ RoadWarrior is an unpredictable, occasionally hostile Hydra of unknown 
+ origin.
+*BlackKnight
+ BlackKnight is an unpredictable, occasionally hostile Hydra of unknown 
+ origin.
+*NetRunner
+ NetRunner is an unpredictable, occasionally hostile Hydra of unknown origin.
+*FlatLine
+ FlatLine is an unpredictable, occasionally hostile Hydra of unknown origin.
+*MegaDeath
+ MegaDeath is an unpredictable, occasionally hostile Hydra of unknown origin.
+*CancerMan
+ CancerMan is an unpredictable, occasionally hostile Hydra of unknown origin.
+*WeirdScience
+ WeirdScience is an unpredictable, occasionally hostile Hydra of unknown 
+ origin.
+*Robocop
+ Robocop is a Hydra run by The Eye (Internet Law-Enforcement). If you have
+ been up to no good, watch out, there may be a Robocop (or Robocops) out
+ there looking for you!
+

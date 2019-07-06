@@ -1,0 +1,17 @@
+The jack command connects your deck to Cyberspace (jacks-in) if you aren't
+currently jacked-in, or disconnects your deck from Cyberspace (jacks-out)
+if you are currently jacked-in.
+
+When jacking-in, if you still have a valid Internet account and are living
+in a flat (renting) you can connect from your home at reasonable rates. 
+Otherwise you must connect from a street link (at exhorbitant rates).
+
+When jacking-out, if you are not jacking out from your home system (your 
+cyberdeck) there is a small chance that your attempt to jack out will fail. 
+If that happens, just try again in a few seconds. 
+
+Also, there are a few ICE programs that cause you to be locked into the net.
+If this happens, you just have to ride out the locked-in time and hope
+you can jack-out before any more bad things happen to you.
+
+

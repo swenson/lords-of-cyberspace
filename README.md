@@ -1,3 +1,10 @@
-# Lords of Cyberspace
+Lords of Cyberspace
+===================
 
-Play at https://lords-of-cyberspace.glitch.me
+To run this yourself, you'll need a copy of the `data-demo.zip` unzipped in the `data/` directory.
+
+
+Made with [Glitch](https://glitch.com/)
+---------------------------------------
+
+\ ゜o゜)ノ

@@ -1,0 +1,4 @@
+The deck command displays the current state of your Cyberdeck (how many
+CPUs you have, what speed they are, how much memory you have, etc).
+
+
