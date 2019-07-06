@@ -565,17 +565,17 @@ short Init_World(void) {
   char    buf[4991];
   unlink(CITY_FILE);
   Create_New(CITY_FILE);
-  fp = fopen("muicyber/data/cities.dat", READB);
+  fp = fopen("muicyber/.data/cities.dat", READB);
 
   if (fp == NULL) {
-    perror("Error opening file muicyber/data/cities.dat");
+    perror("Error opening file muicyber/.data/cities.dat");
     exit(-1);
   }
 
   new_fp = fopen(CITY_FILE, APPENDB);
 
   if (new_fp == NULL) {
-    perror("Error opening file for append muicyber/data/cities.dat");
+    perror("Error opening file for append muicyber/.data/cities.dat");
     exit(-1);
   }
 
@@ -600,7 +600,7 @@ short Init_World(void) {
             sprintf
             (
               glob->path,
-              "muicyber/data/systems/%d@%dx%d@.%df",
+              "muicyber/.data/systems/%d@%dx%d@.%df",
               net_x,
               net_y,
               x,
@@ -629,7 +629,7 @@ short Init_World(void) {
               sprintf
               (
                 glob->path,
-                "muicyber/data/systems/%d@%dx%d@.%df",
+                "muicyber/.data/systems/%d@%dx%d@.%df",
                 net_x,
                 net_y,
                 x,
@@ -644,7 +644,7 @@ short Init_World(void) {
                 sprintf
                 (
                   glob->path,
-                  "muicyber/data/systems/%d@%dx%d@.%dd",
+                  "muicyber/.data/systems/%d@%dx%d@.%dd",
                   net_x,
                   net_y,
                   x,
@@ -671,7 +671,7 @@ short Init_World(void) {
                   sprintf
                   (
                     glob->path,
-                    "muicyber/data/systems/%d@%dx%d@.%dd",
+                    "muicyber/.data/systems/%d@%dx%d@.%dd",
                     net_x,
                     net_y,
                     x,

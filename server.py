@@ -13,6 +13,10 @@ from flask_sockets import Sockets
 import db
 import loc
 
+if not os.path.exists('.data/systems'):
+  # restore the data
+  os.system('unzip -LL data-demo.zip -d .data/')
+
 # TODO: run cyber_clean
 
 app = Flask(__name__, static_folder='public')
