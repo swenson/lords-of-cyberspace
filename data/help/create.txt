@@ -1,7 +1,0 @@
-Usage: create <program name> <strength> <value>
-
-GameOp use only. Allows you to create any program you wish. It is added
-into the first available memory slot (if any). If strength and/or value
-are not specified, defaults will be used.
-
-

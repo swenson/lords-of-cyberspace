@@ -1,1 +1,0 @@
-The help command is the same as typing "?". it displays game documentation.

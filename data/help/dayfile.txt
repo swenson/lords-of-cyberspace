@@ -1,2 +1,0 @@
-Displays a list of the last few players to sign on to Lords of Cyberspace.
-

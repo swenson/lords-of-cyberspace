@@ -1,7 +1,0 @@
-Use the back command to back up one net move or one long-distance move. It
-can be abbreviated to "b". Backing up while in your origin (home) city
-will move you into your Cyberdeck.
-
-
-
-

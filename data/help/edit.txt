@@ -1,5 +1,0 @@
-For use by GameOps, the edit command allows you to edit players, cities
-and systems. You can also generate a report detailing the makeup of all of
-the permanant systems in the game.
-
-

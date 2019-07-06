@@ -1,3 +1,0 @@
-Displays a list of the top Lords of Cyberspace players (ranked by score).
-
-

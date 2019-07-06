@@ -1,2 +1,0 @@
-Displays the current state of your Internet and World Bank accounts, as
-well as your current employment and rent status.

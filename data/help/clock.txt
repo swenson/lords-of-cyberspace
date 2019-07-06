@@ -1,4 +1,0 @@
-Clock displays the current date and time. 
-
-Also, if you are connected to the net via a street link, clock will display 
-how much connect time you have remaining before being punted out of the net.

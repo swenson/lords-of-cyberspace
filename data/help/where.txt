@@ -1,8 +1,0 @@
-The where command displays a list of everyone currently playing Lords of 
-Cyberspace. GameOps receive a display showing what city and/or system 
-(if any) players are currently in.
-
-If your installation of LoC is employing the "outlaw" system, a red
-asterisk (*) will appear next to the names of outlaw players.
-
-
