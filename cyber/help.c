@@ -19,9 +19,9 @@ short EXPORT Help(void) {
   } else if (sameto(parm1, "icons")) {
     Help_Icons();
   } else if (sameto(parm1, "moving")) {
-    Dump_File("muicyber/data/help/moving.txt");
+    Dump_File("muicyber/.data/help/moving.txt");
   } else if (sameto(parm1, "chatting")) {
-    Dump_File("muicyber/data/help/chatting.txt");
+    Dump_File("muicyber/.data/help/chatting.txt");
   } else if (sameto(parm1, "general") || sameto(parm1, "version")) {
     if (MY_PORT->access_level != IDLE) {
       prfmsg(MSG613);
@@ -323,7 +323,7 @@ int EXPORT Download_Handler(int tshcod) {
     break;
 
   case TSHBEG:
-    sprintf(tshmsg, "muicyber/data/help/%s", ftgptr->tagspc);
+    sprintf(tshmsg, "muicyber/.data/help/%s", ftgptr->tagspc);
     strcpy(ftfscb->fname, ftgptr->tagspc);
     rc = 1;
     break;

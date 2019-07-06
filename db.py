@@ -5,10 +5,10 @@ import os.path
 from werkzeug.security import generate_password_hash, check_password_hash
 from peewee import *
 
-if not os.path.exists('data'):
-  os.mkdir('data')
+if not os.path.exists('.data'):
+  os.mkdir('.data')
 
-db = SqliteDatabase('data/bbs.db')
+db = SqliteDatabase('.data/bbs.db')
 
 class BaseModel(Model):
     class Meta:
